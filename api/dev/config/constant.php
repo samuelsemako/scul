@@ -1,10 +1,22 @@
 <?php
-$appName="OOU HOSTEL";
-$appDescription ="This solution update and fetfch data from the database using API and AJAX.";
-$apiKeys = isset($_SERVER['HTTP_APIKEYS']) ? $_SERVER['HTTP_APIKEYS'] : null;
-$expectedApiKey = "d08cebbe-0270-42bb-b559-5759ed2f63d5";
+$appName="Jerry College";
+$appDescription ="This is a School management application";
+$apiKey = isset($_SERVER['HTTP_APIKEY']) ? $_SERVER['HTTP_APIKEY'] : null;
+$expectedApiKey = '33333333335-5432-xr3x4t-3tzyh654-y454';
+$websiteUrl="http://localhost/scul";
+$studentProfilePixPath = '../../uploaded-files/dev/student-pics/';
+$staffProfilePixPath = '../../uploaded-files/dev/staff-pics/';
+$documentStoragePath=$websiteUrl."/api/uploaded-files/dev";
 
-$websiteUrl='http://localhost/oouhostel.com';
-$documentStoragePath= $websiteUrl.'/api/Uploaded_files/userPics/';
-$userProfilePixPath = '../../Uploaded_files/userPics/';
+///// check for API security
+ $checkBasicSecurity=true;
+if ($apiKey != $expectedApiKey) {
+    $response = [
+        'response' => 401,
+        'success' => false,
+        'message' => 'SECURITY ACCESS DENIED! You are not allowed to execute this command due to a security breach.'
+    ];
+    $checkBasicSecurity=false;
+}
 ?>
+

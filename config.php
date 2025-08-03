@@ -1,6 +1,6 @@
 <?php
-$appName="OOU HOSTEL";
-$websiteUrl="http://localhost/oouhostel.com";
+$appName="Jerry college";
+$websiteUrl="http://10.251.253.185/scul";
 $codeVersion=date('Ymdhis');
 ?>
 

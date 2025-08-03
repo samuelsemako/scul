@@ -1,32 +1,24 @@
+<?php include 'config/config.php'; ?>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Engine" content="all" />
+<meta name="distribution" content="global" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="ABCC parent portal, Advanced Breed Group Of Schools parent portal, Advanced Breed Group Of Schools portal" />
+<meta name="description" content="Your Child's Education is at Your Fingertips!" />
 
-<link rel="shortcut icon" type="image-png" href="<?php echo $website_url ?>/all-images/images/icon.png">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-<link href="styles/icons-1.10.2/font/bootstrap-icons.css" type="text/css" rel="stylesheet" >
-<link href="styles/animate.css" type="text/css" rel="stylesheet" media="all">
-<link href="styles/aos.css" type="text/css" rel="stylesheet" />
-<link href="styles/style.css" rel="stylesheet" type="text/css"> 
-<link href="styles/paramount.css" rel="stylesheet" type="text/css"> 
-
-<script src="js/jquery-v3.6.1.min.js"></script>
-<script src="js/scripts.js"></script>   
-<script src="js/registration.js"></script>  
-<script src="js/admin-dashboard.js"></script>  
-
-
-<link href="asset/css/jquery-ui.css" rel="stylesheet" type="text/css"> 
-<script src="asset/js/jquery-ui.min.js"></script>
+<link href="<?php echo $websiteUrl ?>/all-images/images/icon-blue.png?v=<?php echo $codeVersion ?>" rel="shortcut icon" type="image-png" />
+<link href="<?php echo $websiteUrl ?>/styles/styles.css?v=<?php echo $codeVersion ?>" type="text/css" rel="stylesheet" />
+<link href="<?php echo $websiteUrl?>/styles/icons-1.10.2/font/bootstrap-icons.css?v=<?php echo $codeVersion?>" rel="stylesheet" type ="text/css"/>
+<link href="<?php echo $websiteUrl?>/styles/aos.css?v=<?php echo $codeVersion?>" rel="stylesheet" type ="text/css"/>
+<link href="<?php echo $websiteUrl?>/styles/animate.css?v=<?php echo $codeVersion?>" rel="stylesheet" type ="text/css"/>
+<link href="<?php echo $websiteUrl?>/styles/paramount.css?v=<?php echo $codeVersion?>" rel="stylesheet" type ="text/css"/>
 
 
-<link href="<?php echo $website_url?>/slide-property/carousel/carousel.css" type="text/css" rel="stylesheet"/>
-<script src="<?php echo $website_url?>/slide-property/carousel/carousel.js" type="text/javascript" ></script>
-
-<meta property="og:type" content="Website" />
-<meta property="og:site_name" content="<?php echo $thename?>">
-<meta property="og:url" content="192.168.191.145" />
-
-
-
-
- 
+<script src="<?php echo $websiteUrl?>/js/jquery-v3.6.1.min.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/aos.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/paramount.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/script.js?v=<?php echo $codeVersion?>"></script>
+<script src="<?php echo $websiteUrl?>/js/textfield-selectfield.js?v=<?php echo $codeVersion?>"></script>
